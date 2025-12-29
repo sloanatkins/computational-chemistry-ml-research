@@ -1,36 +1,28 @@
-# Machine Learning Research
+# Machine Learning & Data Science Research
 
-This repository contains ongoing research work focused on machine learning and data science. The goal of this work is to explore, implement, and evaluate modern machine learning techniques through structured experimentation and reproducible code.
+This repository contains ongoing research and experimentation in **machine learning and data science**, with an emphasis on **data preprocessing, dataset balancing, and exploratory analysis**. The work is research-oriented and iterative rather than a finalized application.
 
 ## Overview
-This research emphasizes applied machine learning methods, with attention to data preprocessing, model development, evaluation, and analysis. The work includes exploratory experiments as well as more structured implementations designed to investigate performance, scalability, and practical behavior of different approaches.
+The goal of this project is to explore techniques for improving dataset quality prior to model training. Current work focuses on analyzing structured datasets and applying balancing strategies to prepare data for downstream machine learning tasks.
 
-The repository is actively maintained and expanded as research progresses.
+## Contents
+- **`DataBalancer.ipynb`**  
+  A Jupyter Notebook that explores dataset inspection, preprocessing, and balancing techniques. The notebook documents experimental logic and serves as a foundation for future modeling work.
 
-## Areas of Focus
-- Data preprocessing and feature engineering  
-- Dimensionality reduction techniques (e.g. PCA and related methods)  
-- Clustering and unsupervised learning  
-- Supervised learning and model evaluation  
-- Experimental analysis and comparison of models  
-- Reproducible machine learning workflows  
+- **`molecular_data.csv`**  
+  A sample dataset used for experimentation and analysis within the notebook.
 
-## Repository Structure
-- `notebooks/`  
-  Jupyter notebooks used for experimentation, analysis, and visualization of results.
+## Tools & Technologies
+- Python
+- NumPy
+- Pandas
+- Jupyter Notebook
 
-- `src/`  
-  Python source code for reusable components such as preprocessing pipelines, models, evaluation utilities, and helper functions.
-
-- `experiments/`  
-  Supporting files and documentation related to specific experimental setups.
-
-- `docs/`  
-  Additional documentation describing research goals, methodology, or design decisions.
+## Research Focus
+- Data cleaning and preprocessing
+- Handling imbalanced datasets
+- Exploratory data analysis
+- Preparing data for machine learning pipelines
 
 ## Status
-This research is **ongoing**.  
-The contents of this repository represent selected work and evolving experiments. Additional results, refinements, and new directions are added incrementally.
-
-## Notes
-Large datasets and sensitive materials are intentionally excluded. The focus of this repository is on methodology, code quality, and experimental reasoning rather than raw data distribution.
+This project is **ongoing**. Additional notebooks, experiments, and models will be added as research progresses.
